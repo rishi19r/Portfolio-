@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Rishiraj Sharma | Data Analyst</title>
+<script>
+    // Create canvas
+    const canvas = document.createElement('canvas');
+    canvas.width = 64;
+    canvas.height = 64;
+    const ctx = canvas.getContext('2d');
+
+    // Background color
+    ctx.fillStyle = '#4CAF50'; // green background
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    // Text
+    ctx.fillStyle = 'white';
+    ctx.font = 'bold 36px Arial';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText('RS', canvas.width / 2, canvas.height / 2);
+
+    // Convert to favicon and attach
+    const link = document.createElement('link');
+    link.rel = 'icon';
+    link.href = canvas.toDataURL('image/png');
+    document.head.appendChild(link);
+  </script>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<header>
+
+<nav class="navbar">
+  
+
+<h2 class="logo">RS</h2>
+
+<ul class="nav-links">
+
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+<div class="hero-content">
+
+<h1>Hi I'm <span>Rishiraj Sharma</span></h1>
+
+<h3>Data Analyst | Python | SQL | Power BI</h3>
+
+<p>
+Passionate about turning raw data into meaningful insights using
+Python, SQL, and visualization tools.
+</p>
+
+<div class="buttons">
+
+<a href="#projects" class="btn">View Projects</a>
+
+<a href="resume.pdf" class="btn outline">Download Resume</a>
+
+</div>
+
+<div class="social">
+
+<a href="https://www.linkedin.com/in/rishi-sharma-430767367/"><i class="fab fa-linkedin"></i></a>
+
+<a href="https://github.com/rishi19r"><i class="fab fa-github"></i></a>
+
+<a href="https://www.kaggle.com/rishisharma1904"><i class="fab fa-kaggle"></i></a>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ABOUT -->
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    Hello! I'm <strong>Rishiraj Sharma</strong>, a passionate Data Analyst with a strong
+    interest in turning raw data into meaningful insights. I enjoy working with tools
+    like Python, SQL, Excel, and Power BI to analyze data, discover patterns, and
+    build data-driven solutions.
+
+    Along with data analytics, I also have basic knowledge of web development
+    using HTML, CSS, JavaScript, and the MERN stack. I enjoy learning new technologies
+    and exploring how data and web applications can work together to create useful
+    digital products.
+
+    Currently, I am pursuing my Bachelor of Technology at Mahakal Institute of
+    Technology and continuously improving my skills in data analysis, machine
+    learning, and programming.
+  </p>
+</section>
+
+
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+<h2 class="section-title">My Skills</h2>
+<p class="section-subtitle">Technologies and tools I use for data analysis</p>
+
+<div class="skills-container">
+
+<div class="skill-card">
+<div class="skill-icon">🐍</div>
+<h3>Python</h3>
+<p>Data analysis</p>
+</div>
+
+<div class="skill-card">
+<div class="skill-icon">🗄️</div>
+<h3>SQL</h3>
+<p>Data querying, joins, window functions</p>
+</div>
+
+<div class="skill-card">
+<div class="skill-icon">📊</div>
+<h3>Excel</h3>
+<p>Pivot tables, data cleaning and analysis</p>
+</div>
+
+<div class="skill-card">
+<div class="skill-icon">📈</div>
+<h3>Power BI</h3>
+<p>Interactive dashboards and reports</p>
+</div>
+
+<div class="skill-card">
+<div class="skill-icon">🐼</div>
+<h3>Pandas</h3>
+<p>Data manipulation and preprocessing</p>
+</div>
+
+<div class="skill-card">
+<div class="skill-icon">🔢</div>
+<h3>NumPy</h3>
+<p>Numerical computing and arrays</p>
+</div>
+
+<div class="skill-card">
+<div class="skill-icon">🌐</div>
+<h3>HTML CSS JS</h3>
+<p>Basic knowledge of web development</p>
+</div>
+
+<div class="skill-card">
+<div class="skill-icon">📉</div>
+<h3>Data Visualization</h3>
+<p>Matplotlib, Seaborn, Power BI charts</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+<h2 class="section-title">Featured Projects</h2>
+
+<div class="projects-grid">
+
+<div class="project-card">
+<div class="project-image">
+<img src="images/kaksh.png">
+</div>
+
+<div class="project-content">
+<h3>Kaksh:Room Ranting Website</h3>
+<p> a web platform to help students 
+efficiently find and manage suitable rental 
+accommodations with ease.</p>
+
+<div class="project-tech">
+<span>EJS</span>
+<span>CSS</span>
+<span>Expressjs</span>
+<span>MongoDB</span>
+</div>
+
+<div class="project-buttons">
+<a href="https://kaksh-nqma.onrender.com/">Live</a>
+<a href="https://github.com/rishi19r/kaksh">GitHub</a>
+</div>
+
+</div>
+</div>
+
+
+<div class="project-card">
+<div class="project-image">
+<img src="images/titanic.png">
+</div>
+
+<div class="project-content">
+<h3>Titanic Data Analysis & Visualization | Python, Power BI</h3>
+<p>Exploratory data analysis using Pandas, NumPy, visualization libraries and Power BI.</p>
+
+<div class="project-tech">
+<span>Python</span>
+<span>Pandas</span>
+<span>Matplotlib</span>
+<span>Power BI</span>
+</div>
+
+<div class="project-buttons">
+<a href="https://drive.google.com/file/d/1HExcy4HEH60ap6jgXAkqpiZxjX3s3E4z/view?usp=drive_link">View</a>
+<a href="https://colab.research.google.com/drive/1sOnQnxduHjIEEcDZfiQM7qxFVlfNtzRs?usp=drive_link">Google Colab</a>
+</div>
+
+</div>
+</div>
+
+
+<div class="project-card">
+<div class="project-image">
+<img src="images/ipl.png">
+</div>
+
+<div class="project-content">
+<h3>IPL Analysis</h3>
+<p>Analyzed IPL dataset to uncover player performance, team trends, and match insights using data analysis techniques.</p>
+
+<div class="project-tech">
+<span>Python</span>
+<span>Pandas</span>
+<span>Matplotlib</span>
+<span>Power BI</span>
+</div>
+
+<div class="project-buttons">
+<a href="https://drive.google.com/file/d/1-u1bBITFxFjnEeW85iq2VVkiQB1Xivbr/view?usp=drive_link">View</a>
+<a href="https://colab.research.google.com/drive/1GotSW2qYlzzwjJLq738o6pa_x0vdYbOn?usp=drive_link">Google Colab</a>
+</div>
+
+</div>
+
+
+
+</div>
+
+<div class="project-card">
+<div class="project-image">
+<img src="images/uber.png">
+</div>
+
+<div class="project-content">
+<h3>Uber Analysis</h3>
+<p>Cleaned and analyzed 150K+ NCR Uber ride bookings using Python and Pandas, extracted 20+ business insights on cancellations, revenue, and peak hours, and built an interactive Power BI dashboard.</p>
+
+<div class="project-tech">
+<span>Python</span>
+<span>Pandas</span>
+<span>Matplotlib</span>
+<span>Power BI</span>
+</div>
+
+<div class="project-buttons">
+<a href="https://drive.google.com/file/d/1dbs7djK13eu9E2mFIf2edZcfXRsQ_T9j/view?usp=drive_link">View</a>
+<a href="https://colab.research.google.com/drive/18qY_OIxMa_z4dz0UYgVz8gp0E2jMNg5V?usp=drive_link">Google Colab</a>
+</div>
+
+</div>
+
+
+
+</div>
+
+
+<div class="project-card">
+<div class="project-image">
+<img src="images/sql.jfif">
+</div>
+
+<div class="project-content">
+<h3>Marketing Campaign Performance Analysis using SQL</h3>
+<p>The objective of this project is to analyze marketing campaign data using SQL in order to evaluate campaign performance, identify key trends, and generate actionable business insights for better decision-making.</p>
+
+<div class="project-tech">
+<span>Sql</span>
+
+</div>
+
+<div class="project-buttons">
+<a href="https://drive.google.com/file/d/1dbs7djK13eu9E2mFIf2edZcfXRsQ_T9j/view?usp=drive_link">View</a>
+<a href="https://docs.google.com/document/d/1aWAEOsfE5l5rQ_10LQLMHMVLZJaWxmJyNE97z-Sj_VM/edit?tab=t.0">Doc</a>
+</div>
+
+</div>
+
+
+
+</div>
+
+
+<div class="project-card">
+<div class="project-image">
+<img src="images/drug.jpg">
+</div>
+
+<div class="project-content">
+<h3>Auralin vs Novodra — Insulin Drug Trial Analysis</h3>
+<p>Analyzed clinical trial data of 503 patients using Python and Pandas to compare two insulin drugs.</p>
+
+<div class="project-tech">
+<span>Python</span>
+<span>Pandas</span>
+<span>Matplotlib</span>
+<span>Power BI</span>
+
+</div>
+
+<div class="project-buttons">
+<a href="https://drive.google.com/file/d/1CUgEh9ecw36ON23dlcX8aQUgxg1qx1NX/view?usp=drive_link">View</a>
+<a href="https://colab.research.google.com/drive/1QyciHb4Y6t8bcXkOnBwOcjiL2fOJl9r6?usp=drive_link">Google Colab</a>
+</div>
+
+</div>
+
+
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CERTIFICATES -->
+
+<section id="certificates">
+
+<h2 class="section-title">Certificates</h2>
+
+<div class="certificates-grid">
+
+<div class="certificate-card">
+<img src="images/da.png" alt="Certificate">
+
+<div class="certificate-content">
+<h3>GFG – Data Analytics (Nation SkillUp)</h3>
+<p>Learned data analysis concepts including data cleaning, EDA, visualization techniques, and deriving insights from structured datasets.</p>
+
+<a href="https://drive.google.com/file/d/1EXzSoE62345P-KOXdqopxnvm_dqCmgxx/view?usp=drive_link" target="_blank" class="cert-btn">View</a>
+</div>
+</div>
+
+<div class="certificate-card">
+<img src="images/sql.png" alt="Certificate">
+
+<div class="certificate-content">
+<h3>GFG – SQL (Nation SkillUp)</h3>
+<p>Gained hands-on knowledge of SQL queries, joins, aggregations, subqueries, and database management fundamentals.</p>
+
+<a href="https://drive.google.com/file/d/11FIWwuyg8lS9hQ0fV9HsdtkXg6O6YWJs/view?usp=drive_link" target="_blank" class="cert-btn">View</a>
+</div>
+</div>
+
+<div class="certificate-card">
+<img src="images/python.png" alt="Certificate">
+
+<div class="certificate-content">
+<h3>GFG – Python Full Course (Beginner to Advanced)</h3>
+<p>Completed a 6-week Python course covering core programming, file handling, libraries, and real-world problem solving.</p>
+
+<a href="https://drive.google.com/file/d/1mxpBtr8QXBSYIO6xaIt5GuWfNceVbnY1/view?usp=drive_link" target="_blank" class="cert-btn">View</a>
+</div>
+</div>
+
+
+<div class="certificate-card">
+<img src="images/gncipl.png" alt="Certificate">
+
+<div class="certificate-content">
+<h3>GNCIPL – Full Stack Web Development Internship (PIIP-2025)</h3>
+<p>Completed a 6-week in-office internship under Ministry of MSME, Govt. of India — worked on live projects covering session coursework, industrial workshops, and full-stack practices aligned with NCS standards.</p>
+
+<a href="https://drive.google.com/file/d/1j2cWKj_cpXOIgk-FbFrPK5Ov8pGox9ha/view?usp=drive_link" target="_blank" class="cert-btn">View</a>
+</div>
+</div>
+
+
+<div class="certificate-card">
+<img src="images/udemy.png" alt="Certificate">
+
+<div class="certificate-content">
+<h3>Udemy – The Web Developer Bootcamp 2025</h3>
+<p>Completed 74-hour bootcamp by Colt Steele covering HTML, CSS, JavaScript, Node.js, Express, MongoDB, and full-stack web development.</p>
+
+<a href="https://drive.google.com/file/d/1ZC776TN9Aj2slgd3BPHDaqTiwvx-2jFg/view?usp=drive_link" target="_blank" class="cert-btn">View</a>
+</div>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+<h2 class="section-title">Contact Me</h2>
+
+<div class="contact-container">
+
+<div class="contact-info">
+
+<h3>Get In Touch</h3>
+
+<p>If you want to collaborate, discuss data projects, or hire me for a role,
+feel free to contact me.</p>
+
+<p><strong>Email:</strong>rishi.sharma1944@gmail.com</p>
+<p><strong>Contact:</strong>8224044015</p>
+<p><strong>Location:</strong> India</p>
+
+<div class="social-links">
+
+<a href="https://www.linkedin.com/in/rishi-sharma-430767367/" target="_blank" class="contact-btn">LinkedIn</a>
+
+<a href="https://github.com/rishi19r" target="_blank" class="contact-btn">GitHub</a>
+
+<a href="https://www.kaggle.com/rishisharma1904" target="_blank" class="contact-btn">Kaggle</a>
+<a href="mailto:rishi.sharma1944@gmail.com" target="_blank" class="contact-btn">
+Email Me
+</a>
+
+</div>
+
+</div>
+
+
+<!-- <form class="contact-form" action="mailto:youremail@gmail.com" method="post" enctype="text/plain">
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<textarea placeholder="Your Message" rows="5" required></textarea>
+
+<button type="submit" class="contact-btn">Send Message</button>
+
+</form> -->
+
+</div>
+
+</section>
+
+
+
+<footer>
+
+<p>© 2026 Rishiraj Sharma</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
